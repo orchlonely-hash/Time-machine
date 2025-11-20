@@ -1,0 +1,33 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:rgb(97, 146, 175);
+    border-radius: 5px;
+    height: 300px;
+    width: 800px;
+    border-width: 1px;
+    border: solid black;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.item1 {
+    grid-row-start
+}
+
+.grid-container > div {
+    display:flex;
+    background-color: lightblue;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px black;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}

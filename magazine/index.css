@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.magazine {
+    background-image: url(images/images.jpeg);
+    width: 600px;
+    height: auto;
+    aspect-ratio: 210 / 297;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    & * {
+        color: white;
+    }
+
+    & h1 {
+        font-family: "Jacquard 12", system-ui;
+    }
+
+    & h2 {
+        font-family: "Limelight", sans-serif;
+    }
+}

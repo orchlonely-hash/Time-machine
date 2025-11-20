@@ -1,0 +1,9 @@
+html,body { height:100%; margin:0; }
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  min-height: 100vh;
+  padding: 20px;
+}

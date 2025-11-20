@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="test.css">
+  <title>Im just testing</title>
+  <style>
+
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: grid;
+      grid-template-columns: 300px 1fr 200px; 
+      grid-template-rows: auto 1fr auto;   
+      gap: 12px;
+      grid-template-areas:
+        "header header header"
+        "left main right";
+      padding: 12px;
+      box-sizing: 100px;
+      min-height: 100vh;
+    }
+    header, nav, main, aside {
+      background: rgba(0,0,0,0.06);
+      padding: 12px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Header (top)</header>
+  <nav>Left nav / sidebar</nav>
+  <main>Main content (scrolls)</main>
+  <aside>Right column</aside>
+  <footer>Footer</footer>
+</body>
+</html>
