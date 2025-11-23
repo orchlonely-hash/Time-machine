@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(60, 60, 60);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+    height:100vh;
+}
+
+:root {
+    --grid-width: 200px;
+    --grid-height: 300px;
+    --red:red;
+    --blue:blue;
+}
+
+#soyombo {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.tug {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width:600px
+}
+.tug > div {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex: 1;
+}
+
+.tug > div:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    
+}
+
+.red-part {
+    background-color: var(--red);
+}
+
+.blue-part {
+    background-color: var(--blue);
+}
+
+.red-part-II {
+    background-color: var(--red);
+}

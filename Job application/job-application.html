@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <h1> A registraion form </h1>
+
+    <form action="/job-application.css" method="posttype">
+        <label for="name">Name:</label>
+        <input type ="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <label for="gender">Gender:</label><br>
+            <input type="radio" id="male"> Male
+            <input type="radio" id="female"> Female
+            <input type="radio" id="other"> Other <br>
+        <label for="hobby">Hobbyes:</label>
+        <input type="checkbox" id="hobby1" name="hobby1" value="reading">Reading
+        <input type="checkbox" id="hobby2" name="hobby2" value="traveling">Traveling
+        <input type="checkbox" id="hobby3" name="hobby3" value="gaming">Gaming<br>
+        <label for ="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br>Bio:<br>
+        <input type="submit" value="Register">
+
+        </form>
+</body>
+</html>
