@@ -1,33 +1,63 @@
+:root {
+    --background-color: black;
+    --text-color: white;
+    --primary-color: green;
+    --secondary-color: purple;
+    --magazine-text: lightgrey;
+}
+
 body {
     width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.magazine {
+    margin-top: 20px;
 }
 
 div.magazine {
     background-image: url(images/images.jpeg);
-    width: 600px;
+    width: 25vw;
     height: auto;
     aspect-ratio: 210 / 297;
-
+    font-size: 2vw;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 
     & * {
         color: white;
     }
 
-    & h1 {
-        font-family: "Jacquard 12", system-ui;
-    }
-
     & h2 {
         font-family: "Limelight", sans-serif;
     }
+
+    & p {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+div.magazine :first-child {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.magazine :nth-child(2) {
+    font-size: 50%;
+    align-self: start;
+    overflow: ;
 }
