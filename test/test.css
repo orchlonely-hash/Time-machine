@@ -5,5 +5,6 @@ body {
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   min-height: 100vh;
-  padding: 20px;
+  padding: 0;
 }
+
