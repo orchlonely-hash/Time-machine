@@ -2,26 +2,95 @@
     --background-color: black;
     --text-color: white;
     --primarty-color: blue;
+    --primary-color: oklch(0.5892 0.3177 325.25);
+    --secondary-color: oklch(0.5437 0.2468 335.1);
+    --third-color: oklch(0.5314 0.1504 42.2);
+    --small-font-size: 16px;
+    --bigger-font-size: 20px;
+    --big-font-size: 40px;
+    --average-font-weight: 400;
 }
 body {
-    display: grid;
     margin: 0;
     padding: 0;
+    height: 300vh;
 }
 .selector {
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid black;
-    height: 50px;
+    border-bottom: 1px solid white;
+    height: 55px;
     width: 100vw;
-    background-color: white;
     align-items: center;
     justify-content: space-around;
+    font-size: 15px;
 }
 .selections span {
     margin-right: 30px;
 }
-.selections2 {
+.selections2 span {
     margin-right: 30px;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, var(--primary-color), var(--third-color), var(--secondary-color));
+    height: 300px;
+    width: 100vw;
+    order: 0;
+}
+
+.event1 {
+    justify-content:start;
+    background-color: transparent;
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 24px;
+    height: 164px;
+    width: 915px;
+}
+
+.event2 {
+    background-image: url(microsoft-products/controller.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 500px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+
+.p{
+    font-family: inherit;
+    font-size:50px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.event11 p {
+    font-size: var(--big-font-size);
+    padding-bottom: 10px;
+}
+
+.event12 p {
+    font-size: var(--small-font-size);
+    padding-bottom: 5px;
+    padding-top: 0;
 }
 
