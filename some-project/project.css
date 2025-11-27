@@ -1,0 +1,27 @@
+:root {
+    --background-color: black;
+    --text-color: white;
+    --primarty-color: blue;
+}
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+.selector {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.selections span {
+    margin-right: 30px;
+}
+.selections2 {
+    margin-right: 30px;
+}
+

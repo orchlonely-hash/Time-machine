@@ -1,0 +1,37 @@
+:root {
+    --table-header-bg-color: #f5f5f5;
+    --table-row-hover-bg-color: #e0e0e0;
+    --table-border-color: #dcdcdc;
+    --table-font-color: #333333;
+    --firstcolor: #AA336B;
+    --secondcolor: #E75480;
+    --background: grey;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    margin:0;
+    padding:0;
+}
+table.Salary {
+    border: 1px solid var(--table-border-color);
+    border-collapse: collapse;
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+    font-size: 16px;
+    color: var(--table-font-color);
+}
+
+
+
+
+
+
+table.Salary th, table.Salary td {
+    ..border: 1px solid var(--table-border-color);
+    padding: 8px;
+}   
+table.Salary th {
+    background-color: var(--table-header-bg-color);
+}

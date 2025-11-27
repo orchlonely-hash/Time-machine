@@ -1,0 +1,43 @@
+:root {
+    --primary-color: orange;
+    --secondary-color: blue;
+    --background-color: black;
+    --text-color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100vh;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body > .mask1 {
+    display: block;
+    margin: 10px auto;
+    max-width: 70%;
+    height: auto;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: black;
+        --text-color: white;
+    }
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: white;
+        --text-color: black;
+    }
+}
+.mask1 {
+    margin: 10px auto;
+    mask-image: url(cool-photos-for-masking/turtle-shell-raphael-teenage-mutant-ninja-turtles-logo-turtle-5ebbb5f34a4b3875ba182f2b9a95b414.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    max-width: 70%;
+    height: auto;
+}
