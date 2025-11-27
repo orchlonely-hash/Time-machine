@@ -10,6 +10,9 @@
     --bigger-font-size: 40px;
     --normal-font-size: 16px;
     --normaler-font-size: 24px;
+    --biggest-font-size: 50px;
+    --average-weight: 600;
+    --skinny-weight: 400;
 }
 body {
     display: grid;
@@ -28,6 +31,15 @@ body {
     background-color: var(--background-color);
     align-items: center;
     justify-content: space-around;
+    font-weight: var(--skinny-weight);
+}
+.selections2 {
+    font-size: var(--small-font-size);
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    height: 56px;
+    width: auto;
 }
 .selections span {
     padding: 15px;
@@ -41,7 +53,7 @@ body {
     height: 260px;
     width: 100vw;
     align-items: center;
-    justify-items: space-around;
+    justify-content: space-around;
     background: linear-gradient(90deg, var(--primarty-color), var(--secondary-color), var(--third-color), var(--fourth-color));
 
 }
@@ -54,39 +66,40 @@ body {
     width: 776.406px;
     margin: 0;
     height: 164px;
+    overflow-y: visible;
 }
 
 .event1 h1 {
-    font-size: var(--bigger-font-size);
-    margin: 0;
+    font-size: var(--biggest-font-size);
+    margin-top: 0;
     padding: 0;
+    margin-bottom: 24px;
 }
 .event1 p {
-    font-size: var(--normaler-font-size);
-    margin: 0;
+    font-size: var(--normal-font-size);
+    margin-top: 0;
     padding: 0;
+    margin-bottom: 0;
+    font-weight: var(--skinny-weight);
 }
 .event1 button {
     margin-top: 15px;
-    width: 120px;
+    width: 107.188px;
     height: 40px;
     border: none;
     background-color: white;
     color: var(--background-color);
     font-size: var(--normal-font-size);
-    border-radius: 5px;
+    font-weight: var(--average-weight);
+    border-radius: 1px;
     cursor: pointer;
+    margin: 0;
 }
 .event2 {
     width: 436.188px;
-    background-image: url(images/controller.png);
+    background-image: url(image/controller.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     height: 100%;
 }
-.event2 img {
-    height: 200px;
-    width: auto;
-}
-
