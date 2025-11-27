@@ -1,27 +1,92 @@
 :root {
-    --background-color: black;
+    --background-color: #1C1E1F;
     --text-color: white;
-    --primarty-color: blue;
+    --primarty-color: #64287E;
+    --secondary-color: #80217F;
+    --third-color: #A53C65;
+    --fourth-color: #811757;
+    --small-font-size: 13px;
+    --big-font-size: 37px;
+    --bigger-font-size: 40px;
+    --normal-font-size: 16px;
+    --normaler-font-size: 24px;
 }
 body {
     display: grid;
     margin: 0;
     padding: 0;
+    background-color: var(--background-color);
+
 }
 .selector {
+    font-size: var(--small-font-size);
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid black;
-    height: 50px;
+    border: 0;
+    height: 56px;
     width: 100vw;
-    background-color: white;
+    background-color: var(--background-color);
     align-items: center;
     justify-content: space-around;
 }
 .selections span {
-    margin-right: 30px;
+    padding: 15px;
 }
-.selections2 {
-    margin-right: 30px;
+.selections2 span {
+    padding: 15px;
+}
+
+.event {
+    display: flex;
+    height: 260px;
+    width: 100vw;
+    align-items: center;
+    justify-items: space-around;
+    background: linear-gradient(90deg, var(--primarty-color), var(--secondary-color), var(--third-color), var(--fourth-color));
+
+}
+
+.event1 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    justify-content: start;
+    width: 776.406px;
+    margin: 0;
+    height: 164px;
+}
+
+.event1 h1 {
+    font-size: var(--bigger-font-size);
+    margin: 0;
+    padding: 0;
+}
+.event1 p {
+    font-size: var(--normaler-font-size);
+    margin: 0;
+    padding: 0;
+}
+.event1 button {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: var(--background-color);
+    font-size: var(--normal-font-size);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.event2 {
+    width: 436.188px;
+    background-image: url(images/controller.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+.event2 img {
+    height: 200px;
+    width: auto;
 }
 
