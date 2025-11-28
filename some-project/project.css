@@ -1,16 +1,6 @@
 :root {
     --background-color: #1C1E1F;
-    --text-color: white;
-<<<<<<< HEAD
-    --primarty-color: blue;
-    --primary-color: oklch(0.5892 0.3177 325.25);
-    --secondary-color: oklch(0.5437 0.2468 335.1);
-    --third-color: oklch(0.5314 0.1504 42.2);
-    --small-font-size: 16px;
-    --bigger-font-size: 20px;
-    --big-font-size: 40px;
-    --average-font-weight: 400;
-=======
+    --text-color: #E8E6E2;
     --primarty-color: #64287E;
     --secondary-color: #80217F;
     --third-color: #A53C65;
@@ -19,104 +9,29 @@
     --big-font-size: 37px;
     --bigger-font-size: 40px;
     --normal-font-size: 16px;
-    --normaler-font-size: 24px;
+    --normaler-font-size: 24px; 
     --biggest-font-size: 50px;
     --average-weight: 600;
     --skinny-weight: 400;
->>>>>>> eed95193be87c26c152eabc1aaa2811e7991385f
 }
 body {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    height: 300vh;
-=======
     background-color: var(--background-color);
-
->>>>>>> eed95193be87c26c152eabc1aaa2811e7991385f
+    color: var(--text-color);
+    height: 300vh;
 }
+
+
+* {
+    color: var(--text-color);
+}
+
+
 .selector {
     font-size: var(--small-font-size);
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
-    border-bottom: 1px solid white;
-    height: 55px;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 15px;
-}
-.selections span {
-    margin-right: 30px;
-}
-.selections2 span {
-    margin-right: 30px;
-}
-
-.events {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background: linear-gradient(90deg, var(--primary-color), var(--third-color), var(--secondary-color));
-    height: 300px;
-    width: 100vw;
-    order: 0;
-}
-
-.event1 {
-    justify-content:start;
-    background-color: transparent;
-    margin-top: 0px;
-    padding: 0;
-    margin-bottom: 24px;
-    height: 164px;
-    width: 915px;
-}
-
-.event2 {
-    background-image: url(microsoft-products/controller.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 500px;
-    margin-bottom: 16px;
-    margin-top: 0;
-    background-position: center;
-    background-size: contain;
-}
-
-
-
-
-
-
-.p{
-    font-family: inherit;
-    font-size:50px;
-    font-weight: 600;
-}
-
-
-
-
-
-
-
-
-
-.event11 p {
-    font-size: var(--big-font-size);
-    padding-bottom: 10px;
-}
-
-.event12 p {
-    font-size: var(--small-font-size);
-    padding-bottom: 5px;
-    padding-top: 0;
-}
-
-=======
     border: 0;
     height: 56px;
     width: 100vw;
@@ -125,28 +40,126 @@ body {
     justify-content: space-around;
     font-weight: var(--skinny-weight);
 }
+
 .selections2 {
     font-size: var(--small-font-size);
     display: flex;
     flex-direction: row;
+    align-items: center;
     border: 0;
     height: 56px;
     width: auto;
+    & span {
+        padding: 15px;
+        align-items: center;
+        height: 20px;
+        width: auto;
+        display: inline-flex;
+    }
 }
-.selections span {
+
+.selections {
+    height: 56px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    & span {
+        padding: 15px;
+        height: 20px;
+        align-items: center;
+        width: auto;
+        display: inline-flex;
+    }
+}
+
+.rnicrosoft {
     padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 108px;
+    height: 23px;
 }
-.selections2 span {
-    padding: 15px;
+.rnicrosoft img {
+    height:23px;
+    width: 108px;
 }
+
+.down-arrowhead {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.down-arrowhead div {
+    background-color: var(--text-color);
+    height: 18px;
+    width: 9px;
+    mask-image: url(image/down-arrow.png);
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.searcher {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.searcher div {
+    background-color: var(--text-color);
+    height: 18px;
+    width: 16px;
+    mask-image: url(image/search.png);
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.cart {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+.cart div {
+    background-color: var(--text-color);
+    height: 18px;
+    width: 16px;
+    mask-image: url(image/shopping-cart.png);
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.sign-in div {
+    background-color: var(--text-color);
+    height: 32px;
+    width: auto;
+    aspect-ratio: 1/1;
+    mask-image: url(image/sign-in.svg);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    margin-left: 10px;
+}
+
+
+
+
+
 
 .event {
     display: flex;
-    height: 260px;
+    height: 284px;
     width: 100vw;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(90deg, var(--primarty-color), var(--secondary-color), var(--third-color), var(--fourth-color));
+    background-image: url(image/background.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -179,8 +192,8 @@ body {
     width: 107.188px;
     height: 40px;
     border: none;
-    background-color: white;
-    color: var(--background-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-size: var(--normal-font-size);
     font-weight: var(--average-weight);
     border-radius: 1px;
@@ -189,10 +202,37 @@ body {
 }
 .event2 {
     width: 436.188px;
-    background-image: url(image/controller.png);
+    background-image: url(image/event-2.avif);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 100%;
 }
->>>>>>> eed95193be87c26c152eabc1aaa2811e7991385f
+.black-friday-deals {
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 144px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-friday-deals div {
+    width: 196.312px;
+    height: 72px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.surface {
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    & image {
+        aspect-ratio: 1/1;
+        height: 40px;
+        width: auto;
+        overflow:none ;
+    }
+}
+
