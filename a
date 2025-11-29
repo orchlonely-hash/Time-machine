@@ -1,0 +1,144 @@
+[33mcommit f329cb556809d502b17d89610ae93964af3a1016[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sat Nov 29 19:28:55 2025 +0800
+
+    why did i pick this site
+
+[33mcommit fb0d91b5619ba3b98e96070370e5bdc103050929[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Fri Nov 28 17:19:28 2025 +0800
+
+    progress
+
+[33mcommit a701b63511bef08abe5fce0a7571401173affe5a[m
+Merge: 59435a1 eed9519
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Fri Nov 28 14:05:24 2025 +0800
+
+    resolved merge conflicts
+
+[33mcommit eed95193be87c26c152eabc1aaa2811e7991385f[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Fri Nov 28 07:20:14 2025 +0800
+
+    another day
+
+[33mcommit 096d4bc1506a024cad5347f91cc752652efa7af2[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Fri Nov 28 06:50:31 2025 +0800
+
+    why did i choose this site
+
+[33mcommit 59435a111786ab99d80d9d857ab375ea4f1f9f5d[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Thu Nov 27 17:18:46 2025 +0800
+
+    Save local changes
+
+[33mcommit 37465d47b232a043ba6e7ccd7cf7aa75f4c55b38[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Thu Nov 27 13:45:13 2025 +0800
+
+    Delete test.html
+
+[33mcommit 19e783515d2a85563bdc91bb36d0726a9d100f99[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Thu Nov 27 13:43:43 2025 +0800
+
+    Delete github stuff directory
+
+[33mcommit 26c2c64c81fc35c023bee33aa269037d8a7f054c[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Thu Nov 27 13:34:46 2025 +0800
+
+    the same index html
+
+[33mcommit 9f74777674e862187ea6171ca9c2b96a06b7afc7[m
+Merge: f3957ea 8734dd2
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Thu Nov 27 13:32:06 2025 +0800
+
+    Merge conflicts resolved
+
+[33mcommit f3957ea477952ac3a6b0706a9781cd23b97edd23[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Thu Nov 27 13:17:28 2025 +0800
+
+    is this it?
+
+[33mcommit 8734dd2aa7937e0edfaa9aafcb3ad56e48501810[m
+Merge: 9f48bdd fecc51f
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Thu Nov 27 13:00:50 2025 +0800
+
+     if it merges an updated upstream into a topic branch.
+
+[33mcommit 9f48bddf12610f7c0e1d1d2a60045f51967d7e70[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Tue Nov 25 17:02:58 2025 +0800
+
+    Save current changes
+
+[33mcommit 3bf6a045134e53e5fbd114c83fde1c6a9086540c[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Mon Nov 24 17:04:03 2025 +0800
+
+    Save current changes
+
+[33mcommit 9bb955944bfc00cdbeac5a65c1375c78a3838568[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Mon Nov 24 17:01:43 2025 +0800
+
+    Save current changes
+
+[33mcommit fecc51f6e8fc8822ade8824e5013a5514a98fd07[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sun Nov 23 17:47:38 2025 +0800
+
+    another day
+
+[33mcommit e04276cec19f8eb771f62ccca874803e83b50025[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sun Nov 23 17:37:52 2025 +0800
+
+    Initialize README with project overview
+    
+    Added project description for the time machine.
+
+[33mcommit c4d883a43d60b25738c78c1801b374d145e7a935[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sun Nov 23 17:31:23 2025 +0800
+
+    Delete index.html
+
+[33mcommit 14359d83eec8414b50812399bf4bec74e2281bbc[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sun Nov 23 17:31:13 2025 +0800
+
+    Delete README.md
+
+[33mcommit 570244ab973dc74a7509be0ee5e30c94d87241a5[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Sun Nov 23 17:31:05 2025 +0800
+
+    Delete index.css
+
+[33mcommit cf9985adb52430553e4c7b3f6d7cfa9c134944ca[m
+Author: PADA-1-5-04 <PADA-1-5-04@Erxess-iMac.local>
+Date:   Thu Nov 20 16:51:48 2025 +0800
+
+    boogin around
+
+[33mcommit eca96b003fc7a320ab6283162b1954610055020a[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Wed Nov 19 16:48:16 2025 +0800
+
+    Add files via upload
+    
+    This project is expected to push the boundaries of fundamental coding into mankind's biggest achievement, ridiculous as it may sound with dedication and widened time, ill be the only one laughingh usahusahuhahahhahhaahaha
+
+[33mcommit a13daea59b797df8e493039919830749cddd1ccd[m
+Author: Dweeb <orchlonely@gmail.com>
+Date:   Wed Nov 19 15:29:28 2025 +0800
+
+    Initial commit

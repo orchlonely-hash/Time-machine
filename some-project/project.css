@@ -64,6 +64,10 @@ body {
         border-color: darkcyan;
         border-width: 1px;
     }
+    & :hover {
+        transition: scale(1.05);
+        transition: 0.3s;
+    }
 }
 
     /* buttons */
@@ -715,6 +719,7 @@ h3 {
 /* gift */
 .gift {
     background-image: url(image/background2.avif);
+    margin-bottom: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -765,3 +770,58 @@ h3 {
             }
         }
     }
+
+.windows11 {
+    margin: 0px 152.5px 0px 152.5px;
+    height: 648px;
+    width: auto;
+    background-image: url(image/windows11.avif);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    & h5 {
+        color: white;
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+    & div {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        grid-column: 2
+    }
+    & p {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+/* products3 */
+.products3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 507.7px;
+}
+.products3 > div {
+    height: 100%;
+    width: 382.109px;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: transparent;
+}
+h6 {
+    margin-top:25px;
+    padding-left: 95.25px;
+    padding-right: 95.25px;
+    margin-left: 57.25px;
+    margin-right: 57.25px;
+    margin-bottom: 24px;
+    font-size: var(--big-font-size);
+}
