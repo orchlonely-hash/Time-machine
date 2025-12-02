@@ -1,0 +1,41 @@
+:root { 
+--background-color: #353535; 
+--text-color: white; 
+} 
+
+aside {
+    display: relative;
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-color: whitesmoke 1px;
+    margin: 0;
+    border-radius: 10px;
+    & .fixed {
+        position: fixed;
+        left: 0;
+        margin: 0;
+    }
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    align-items: center;
+    & .relative {
+        left: 50%;
+        right: 50%;
+    }
+}
+
+body { 
+    display: relative;
+    height: 200vh; 
+    width: auto;
+} 
+
