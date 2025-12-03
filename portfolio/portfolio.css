@@ -1,0 +1,39 @@
+:root { 
+--background-color: #353535; 
+--text-color: white; 
+} 
+
+h1 {
+    height: 100px;
+}    
+
+body { 
+    display: flex;
+    height: 800vh; 
+    width: 100vw;
+} 
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    align-items: center;
+    & .relative {
+        left: 50%;
+        right: 50%; 
+    }    
+}    
+
+aside {
+display: flex;
+justify-content: center;
+position: sticky;
+position: -webkit-sticky;
+height: 100vh;
+margin-top: 100vh;
+}    
+
