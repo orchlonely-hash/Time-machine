@@ -19,7 +19,7 @@
     --blue: #005293;
     --blue2: rgb(6, 93, 175);
     --lighter-blue: 1px rgb(72, 72, 155);
-    --soft-shadow: 0 8px 20px rgba (0,0,0,0.12);
+    --soft-shadow: 0 8px 20px rgba(0,0,0,0.12);
     --shadow-1: 0 4px 12px rgba(0, 0, 0, 0.25);
     --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.18);
 }
