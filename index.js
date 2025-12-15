@@ -1,22 +1,21 @@
 // ooriihoo ner, nas, uls, durtai ongo, suragch mon eseh
 
-// const readline = require('readline');
+const readline = require('readline');
 
-// // Create readline interface
-// let a = 3
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
+// Create readline interface
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-// rl.question('Enter your name: ', (name) => {
-//   rl.question('Enter your age: ', (age) => {
-//     console.log(`Hello ${name}, you are ${age} years old.`);
+rl.question('Enter your name: ', (name) => {
+rl.question('Enter your age: ', (age) => {
+    console.log(`Hello ${name}, you are ${age} years old.`);
 
-//     // Close the readline interface
-//     rl.close();
-//   });
-// });
+    // Close the readline interface
+    rl.close();
+  });
+});
 
 
 
@@ -43,59 +42,20 @@
 // }
 
 
-address = {
-    city: 'Bangcock',
-    street: 'Leon street',
-    zipcode: '13350',
-}
-student = {
-    name: 'Alice',
-    age: 22,
-    address: address,
-}
-
-function GetFullAdress(student) {
-    return `Address: ${student.address.street}, ${student.address.city}, ${student.address.zipcode}`;
-}
-
-movie = {
-    title: 'Inception',
-    director: 'Christopher Nolan',
-    year: 2010,
-    genre: 'Scifi',
-}
-car = {
-    brand: 'Toyota',
-    model: 'Camry',
-    year: 2020,
-    color: 'White',
-    isElectric: false,
-}
-person = {
-    name: 'John',
-    age: 30,
-    firstname: 'Duke',
-    lastname: 'Nukem',
-    isStudent: false,
-}
-
-delete person.age;
- 
-const updated_person = Object.assign(person, {
-    ismarried: true,
-}
-);
-
-function GetFullName(updated_person) {
-    return `This guys full name is ${updated_person.firstname} ${updated_person.lastname}`;
-}
-
-function GetKeysAndValues(movie) {
-    return `Movie keys are: ${Object.keys(movie)} and values are: ${Object.values(movie)}`;
-}
-
-
-
+// const ag_progression = (first_term , common_difference_ratio , n_terms , arithmetic , nth_term) => {
+//     if (arithmetic && nth_term) {
+//         return first_term + (n_terms - 1) * common_difference_ratio;
+//     }
+//     else if (arithmetic && !nth_term) {
+//         return ((n_terms / 2) * (2 * first_term + (n_terms - 1) * common_difference_ratio));
+//     }
+//     else if (!arithmetic && nth_term) {
+//         return first_term * (common_difference_ratio ** (n_terms - 1));
+//     }
+//     else {
+//         return (1 / (common_difference_ratio - 1) * (first_term * (common_difference_ratio ** n_terms - 1)));
+//     }
+// }
 
 
 // const floor = {
@@ -113,3 +73,14 @@ function GetKeysAndValues(movie) {
 //     }
 
 // }
+
+
+
+
+
+
+
+
+
+
+
