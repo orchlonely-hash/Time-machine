@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Enter your name: ', (name) => {
-rl.question('Enter your age: ', (age) => {
+    rl.question('Enter your age: ', (age) => {
     console.log(`Hello ${name}, you are ${age} years old.`);
 
     // Close the readline interface
