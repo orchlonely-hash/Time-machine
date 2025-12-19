@@ -73,14 +73,3 @@ rl.question('Enter your name: ', (name) => {
 //     }
 
 // }
-
-
-
-
-
-
-
-
-
-
-
