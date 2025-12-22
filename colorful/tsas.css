@@ -1,0 +1,53 @@
+.snow {
+  position: fixed;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+
+  animation-name: snowFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowFall {
+  from {
+    transform: translateY(-10px) scale(var(--scale));
+  }
+  to {
+    transform: translateY(100vh) scale(var(--scale));
+  }
+}
+
+/* Decorations */
+@keyframes moveX {
+  from { transform: translateX(110vw); }
+  to { transform: translateX(0); }
+}
+
+.gif {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  pointer-events: none;
+}
+
+.gif2 {
+  position: absolute;
+  right: 300px;
+  top: 500px;
+  transform: scaleX(-1);
+  pointer-events: none;
+}
+
+.santa {
+  position: fixed;
+  top: 20px;
+  left: -150px;
+  width: 140px;
+  animation: moveX 6s linear infinite;
+  transform: skew(-120deg);
+}
