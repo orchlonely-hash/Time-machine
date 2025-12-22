@@ -1,0 +1,91 @@
+:root {
+    --tab-active-bg-color: #f0f0f0;
+    --tab-inactive-bg-color: #2c2c2c;
+    --tab-active-text-color: #000000;
+    --tab-inactive-text-color: #555555;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+body {
+    background-color: var(--tab-inactive-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    & h2, h3, h4 {
+        margin: 20px;
+        font-size: 80px;
+    }
+    & p {
+        margin: 20px;
+        font-size: 40px;
+    }
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    gap: 50px;
+    position: absolute;
+    z-index: 10;
+    position: relative;
+    top: 200px;   
+    left: 300px;
+}
+#main_dish_tab {
+    background: linear-gradient(145deg, rgb(10, 122, 231), rgb(3, 59, 112));
+}
+#side_dish_tab {
+    background: linear-gradient(145deg, rgb(255, 0, 43), rgb(185, 17, 45));
+}
+
+#desert_tab {
+    background: linear-gradient(145deg, rgb(253, 253, 35), rgb(211, 191, 8));
+}
+
+.tab-btn {
+    background-color:#2c2c2c;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    padding: 0 20px;
+    margin: 0 5px;
+    border-radius: 40px;
+    border: none;   
+    &:hover {
+        scale: 1.05;
+    }
+}
+.blackout {
+    position: absolute;
+    inset: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 100px 0px;
+}
+.Hatsune_Miku {
+    background-image: url(image/hatsune-miku-background-9dkjyju1lxx40g6w.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--tab-active-text-color);
+    font-size: 0.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    inset: 50px;
+    border-radius: 100px 0px;
+}
