@@ -7,5 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
     hatsune = document.getElementById("hatsune")
     kasane = document.getElementById("kasane")
     kagame = document.getElementById("kagame")
+    
+    let previous_tab = hatsune;
 
+    button1.addEventListener("click", () => {
+        if (previous_tab = hatsune) {
+            return
+        }
+        else {
+            previous_tab = hatsune;
+            previous_tab.style.display = none;
+            hatsune.style.display = block;
+        }
+    });
 })
