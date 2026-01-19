@@ -31,6 +31,10 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+<<<<<<< HEAD
+=======
+    height: auto;
+>>>>>>> dd3409bb3bd7178e31120fc31f4e2437d7abfd26
     width: 100%;
     display: flex;
     align-items: center;
@@ -39,6 +43,7 @@ header {
     transform-origin: down;
     scale: 1;
     padding: 20px 0px;
+    overflow: hidden;
 
     &:hover {
         scale: 1.05;
@@ -63,10 +68,10 @@ main {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
 }
 
-.weather-info {
-    background-color: white;
+.weather-result {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
