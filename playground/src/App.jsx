@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Main from './page/Main'
 import About from './page/About'
 import Contact from './page/Contact'
+import { BrowserRouter, Route, Routes } from 'react-router'
 
 
 
