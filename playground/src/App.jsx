@@ -4,6 +4,7 @@ import Main from './page/Main'
 import About from './page/About'
 import Contact from './page/Contact'
 import { BrowserRouter, Route, Routes } from 'react-router'
+import { outlet } from 'react-router-dom'
 
 
 
