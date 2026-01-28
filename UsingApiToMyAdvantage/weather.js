@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     document.getElementById('submit').addEventListener('click', function () {
-        
-        const city = document
-        .getElementById('city').value.trim().toLowerCase();
 
+        const city = document
+            .getElementById('city').value.trim().toLowerCase();
 
 
         const apiKey = 'ffc74c9e41d3cd99bf6bb25a7f582a7a';
