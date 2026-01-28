@@ -1,23 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", function () {
+    const tabButtons = document.querySelectorAll(".tab-btn");
+    const tabContents = document.querySelectorAll(".tab-content");
 
-    button1 = document.getElementById("main_dish_tab")
-    button2 = document.getElementById("side_dish_tab")
-    button3 = document.getElementById("desert_tab")
+    function switchTabs(index) {
+        tabContents.forEach(c => c.classList.remove("active"));
+        tabButtons.forEach(b => b.classList.remove("active"));
 
-    hatsune = document.getElementById("hatsune")
-    kasane = document.getElementById("kasane")
-    kagame = document.getElementById("kagame")
-    
-    let previous_tab = hatsune;
+        tabContents[index].classList.add("active");
+        tabButtons[index].classList.add("active");
+    }
 
-    button1.addEventListener("click", () => {
-        if (previous_tab = hatsune) {
-            return
-        }
-        else {
-            previous_tab = hatsune;
-            previous_tab.style.display = none;
-            hatsune.style.display = block;
-        }
+    tabButtons.forEach((button, index) => {
+        button.addEventListener("click", () => switchTabs(index));
     });
-})
+
+    switchTabs(1);
+});

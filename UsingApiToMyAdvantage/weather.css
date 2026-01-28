@@ -31,10 +31,6 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
-<<<<<<< HEAD
-=======
-    height: auto;
->>>>>>> dd3409bb3bd7178e31120fc31f4e2437d7abfd26
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,23 +55,39 @@ main {
 
 .weather-section {
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     background-color: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     height: auto;
 }
 
-.weather-result {
+#weather-result {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
     height: 200px;
+}
+
+.submit {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: darken(var(--secondary-color), 10%);
+    }
 }
