@@ -9,7 +9,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: var(--background-color);
 }
 
 body {
@@ -66,6 +65,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     height: auto;
+    color: var(--background-color); 
 }
 
 #weatherResult {
@@ -80,6 +80,7 @@ main {
     padding: 2rem;
     width: auto;
     height: auto;
+    color: var(--text-color);
 }
 
 .submit {

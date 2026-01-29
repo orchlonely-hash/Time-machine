@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    document.getElementById('submit').addEventListener('click', function () {
-
+    document.querySelector('.info-section #weather-form .submit').addEventListener('click', (e) => {
+        e.preventDefault();
+        
         const city = document
             .getElementById('city').value.trim().toLowerCase();
 
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return response.json();
             })
             .then(data => {
+                console.log(data);
                 const weatherInfo = `
                     <h2>Weather in ${data.name}</h2>
                     <p>Temperature: ${data.main.temp} °C</p>
