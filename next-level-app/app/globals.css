@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #3d3d43;
@@ -6,7 +8,7 @@
   --text-color: rgb(223, 223, 223);
   --primary-color: rgb(69, 96, 63);
   --secondary-color: rgb(131, 125, 70);
-  
+
 }
 
 @theme inline {
@@ -27,4 +29,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
