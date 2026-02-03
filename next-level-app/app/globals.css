@@ -1,14 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #3d3d43;
+  --background: #2f2f33;
   --foreground: #494b56;
   --text-color: rgb(223, 223, 223);
-  --primary-color: rgb(69, 96, 63);
-  --secondary-color: rgb(131, 125, 70);
-
+  --primary-color: rgb(53, 52, 60);
+  --secondary-color: rgb(40, 41, 44);
 }
 
 @theme inline {
@@ -20,8 +17,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2f2f33;
+    --foreground: #494b56;
+    --text-color: rgb(223, 223, 223);
+    --primary-color: rgb(53, 52, 60);
+    --secondary-color: rgb(61, 61, 66);
   }
 }
 
