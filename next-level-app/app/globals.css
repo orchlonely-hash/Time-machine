@@ -1,14 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #3d3d43;
-  --foreground: #494b56;
+  --background: #1e1e22;
+  --foreground: #202024;
   --text-color: rgb(223, 223, 223);
-  --primary-color: rgb(69, 96, 63);
-  --secondary-color: rgb(131, 125, 70);
-
+  --primary-color: rgba(41, 39, 46, 0.123);
+  --secondary-color: rgb(70, 54, 21);
+  --border: rgb(34, 33, 36);
+  --linear: linear(to down, #1e1e22, #343441);
 }
 
 @theme inline {
@@ -20,8 +19,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --background: #1e1e22;
+  --foreground: #202024;
+  --text-color: rgb(223, 223, 223);
+  --primary-color: rgba(41, 39, 46, 0.123);
+  --secondary-color: rgb(70, 54, 21);
+  --border: rgb(39, 36, 48);
+  --linear: linear(to down, #1e1e22, #343441);
   }
 }
 
