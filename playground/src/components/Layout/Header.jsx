@@ -2,9 +2,9 @@ import { Link } from "react-router";
 
 export default function Header() {
     return (
-        <div className="bg-gray-800 text-white p-4 flex space-x-4 justify-center">
+        <div className="bg-gray-800 text-white p-4 flex space-x-4 justify-center items-center">
 
-            <ul className="flex gap-x-3">
+            <ul className="flex justify-evenly gap-x-30">
                 <li>
                     <Link to="/">Home</Link>
                 </li>

@@ -6,10 +6,10 @@ export default function Layout() {
         <main>
             <Header />
             <Outlet />
-            {/* Footer */}
         </main>
     )
 }
+
 // export default function IconLayout2({
 //     children
 // }) {
