@@ -1,27 +1,23 @@
 import './App.css'
+import React from "react";
 import Layout from './components/Layout/Layout'
 import Main from './page/Main'
-import About from './page/About'
-import Contact from './page/Contact'
-import { BrowserRouter, Route, Routes } from 'react-router'
-import { outlet } from 'react-router-dom'
-
+import Library from './page/Library'
+import Complain from './page/Complain'
+import Login from './page/Login'
+import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom'
 
 
 function App() {
-
   
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout />} >
           <Route index element={<Main />} />
-          <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='dashboard' element={<h1>Dashboard Page sidebar</h1>}>
-            <Route path='settings' element={<h1>Dashboard Settings Page</h1>} />
-            <Route path='profile' element={<h1>Dashboard Profile Page</h1>} />
-          </Route>
+          <Route path='library' element={<Library />} />
+          <Route path='login' element={<Login />} />
+            <Route path='complain' element={<Complain />}/>
         </Route>
       </Routes>
     </BrowserRouter>
